@@ -53,7 +53,8 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\MainMenu\MM_Behavior.cs" />
+    <Compile Include="Assets\MenuScripts\MM_Behavior.cs" />
+    <Compile Include="Assets\MenuScripts\Lvl1_Behavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
