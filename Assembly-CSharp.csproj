@@ -53,8 +53,10 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\MenuScripts\MM_Behavior.cs" />
-    <Compile Include="Assets\MenuScripts\Lvl1_Behavior.cs" />
+    <Compile Include="Assets\Scripts\Lvl1_Behavior.cs" />
+    <Compile Include="Assets\Scripts\MM_Behavior.cs" />
+    <Compile Include="Assets\Scripts\ScrollingScript.cs" />
+    <Compile Include="Assets\Scripts\RendererExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
