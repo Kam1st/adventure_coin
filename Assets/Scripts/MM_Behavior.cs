@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class MM_Behavior : MonoBehaviour
 {
     [SerializeField]
-    Canvas mainMenu, audioMenu, levelsMenu;
+    Canvas mainMenu, audioMenu, levelsMenu, controlsMenu;
 
     [SerializeField]
     Slider volumeSlider;
@@ -21,6 +21,7 @@ public class MM_Behavior : MonoBehaviour
         mainMenu.enabled = true;
         audioMenu.enabled = false;
         levelsMenu.enabled = false;
+        controlsMenu.enabled = false;
     }
 
     // Update is called once per frame
