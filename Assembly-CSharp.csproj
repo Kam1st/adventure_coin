@@ -61,12 +61,15 @@
     <Compile Include="Assets\Scripts\ScrollingScript.cs" />
     <Compile Include="Assets\Scripts\MM_Behavior.cs" />
     <Compile Include="Assets\Scripts\Tiling.cs" />
+    <Compile Include="Assets\Scripts\TransformJump.cs" />
     <Compile Include="Assets\Scripts\RendererExtensions.cs" />
     <Compile Include="Assets\Scripts\AnimChar.cs" />
     <Compile Include="Assets\Character(DEL)\MoveCharacter.cs" />
-    <Compile Include="Assets\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\Scripts\CheckGround.cs" />
-    <Compile Include="Assets\Scripts\TransformJump.cs" />
+    <Compile Include="Assets\Scripts\Camera2DFollow.cs" />
+    <Compile Include="Assets\Lvl4\VolcanoBackgroundImage\DynamicBackgrounds\Scripts\TweenBase.cs" />
+    <Compile Include="Assets\Lvl4\VolcanoBackgroundImage\DynamicBackgrounds\Scripts\ColorSpring.cs" />
+    <Compile Include="Assets\Lvl4\VolcanoBackgroundImage\DynamicBackgrounds\Scripts\RepeatingBackground.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
