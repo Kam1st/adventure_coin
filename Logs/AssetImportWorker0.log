@@ -1,126 +1,126 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 16165 MB
+Built from '2020.3/release' branch; Version is '2020.3.27f1 (e759542391ea) revision 15161684'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Education' Language: 'en' Physical Memory: 16246 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.27f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/dahli/Desktop/GameDevProject/GameDev_FinalProject
+C:/Users/IT/mywebproject/GameDev_FinalProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61413
-Successfully changed project path to: C:/Users/dahli/Desktop/GameDevProject/GameDev_FinalProject
-C:/Users/dahli/Desktop/GameDevProject/GameDev_FinalProject
+63073
+Successfully changed project path to: C:/Users/IT/mywebproject/GameDev_FinalProject
+C:/Users/IT/mywebproject/GameDev_FinalProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 140.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 114.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.26f1 (7298b473bc1a)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/dahli/Desktop/GameDevProject/GameDev_FinalProject/Assets
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/IT/mywebproject/GameDev_FinalProject/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
     Vendor:   
-    VRAM:     8082 MB
-    Driver:   27.20.100.9316
+    VRAM:     8123 MB
+    Driver:   27.20.100.8681
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007359 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004473 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 101.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 104.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.544 seconds
+- Completed reload, in  1.448 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1545ms)
-		BeginReloadAssembly (164ms)
+	ReloadAssembly (1448ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1191ms)
-			LoadAssemblies (157ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1145ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (361ms)
+			SetupTypeCache (377ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (464ms)
+			RebuildScriptCaches (132ms)
+			SetupLoadedEditorAssemblies (387ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (101ms)
-				BeforeProcessingInitializeOnLoad (31ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (78ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (26ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010841 seconds.
+Registered in 0.007138 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 143.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 111.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.838 seconds
+- Completed reload, in  2.638 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2839ms)
-		BeginReloadAssembly (317ms)
+	ReloadAssembly (2639ms)
+		BeginReloadAssembly (319ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (2375ms)
-			LoadAssemblies (223ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (2164ms)
+			LoadAssemblies (201ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (842ms)
+			SetupTypeCache (747ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (156ms)
-			SetupLoadedEditorAssemblies (951ms)
+			RebuildScriptCaches (133ms)
+			SetupLoadedEditorAssemblies (826ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (144ms)
-				BeforeProcessingInitializeOnLoad (236ms)
-				ProcessInitializeOnLoadAttributes (507ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (26ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (470ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2211 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.2 MB.
+Unloading 2214 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.4 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2649.
-Total: 6.520500 ms (FindLiveObjects: 0.165200 ms CreateObjectMapping: 0.079500 ms MarkObjects: 6.127300 ms  DeleteObjects: 0.146400 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2652.
+Total: 4.554000 ms (FindLiveObjects: 0.242100 ms CreateObjectMapping: 0.169600 ms MarkObjects: 4.059400 ms  DeleteObjects: 0.081400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -129,815 +129,550 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Lvl3/New Folder
-  artifactKey: Guid(2ed533c8a1fc30943b5e1329ae57b55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/New Folder using Guid(2ed533c8a1fc30943b5e1329ae57b55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551d0c166f326958a88ce1a78bea5d29') in 0.015274 seconds 
-  Import took 0.020658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Lvl3/SceneLvl3.unity
-  artifactKey: Guid(47f7e6e6fb825a043ac26b383d86bd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/SceneLvl3.unity using Guid(47f7e6e6fb825a043ac26b383d86bd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59d83de3eb83a533d377523b4eb449c') in 0.033169 seconds 
-  Import took 0.038848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.560392 seconds.
-  path: Assets/Lvl3/BackgroundImages
-  artifactKey: Guid(c097cf6aa9790d14fa7909862082ebb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages using Guid(c097cf6aa9790d14fa7909862082ebb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7a832fcc211fba46104ace58f49417') in 0.014410 seconds 
-  Import took 0.019700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 276.259322 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack
-  artifactKey: Guid(3ac641d5250deed4691dc85aa275cbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack using Guid(3ac641d5250deed4691dc85aa275cbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce9c7b7bc16bf52cf93332c3f9b4a0f') in 0.015827 seconds 
-  Import took 0.021352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.091859 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Examples
-  artifactKey: Guid(aeb20e78766cb66428a5a7c790d67f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Examples using Guid(aeb20e78766cb66428a5a7c790d67f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2ab3e00ba66841f0048fb5b6ba7bb1') in 0.018548 seconds 
-  Import took 0.023937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.072809 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night02
-  artifactKey: Guid(9b9e7354f5a10b542b94231c24dbad73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night02 using Guid(9b9e7354f5a10b542b94231c24dbad73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ecf80a34326f17186c02d93e628f121') in 0.014274 seconds 
-  Import took 0.019196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.215947 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening01
-  artifactKey: Guid(ed8df9d71e255964bb633b64e433aa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening01 using Guid(ed8df9d71e255964bb633b64e433aa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46aa244ec950b0c760eab78ec8f34c8') in 0.018790 seconds 
-  Import took 0.023307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.842982 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening01/Backgrounds
-  artifactKey: Guid(ce347b249bdc18e4caec42eaf97b3b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening01/Backgrounds using Guid(ce347b249bdc18e4caec42eaf97b3b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5406e8188f6beda40c0eeea1e348e3') in 0.015722 seconds 
-  Import took 0.021505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.088167 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening01/Backgrounds/cloud01.png
-  artifactKey: Guid(08ac644fb370b344fb6500bd4aad89b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening01/Backgrounds/cloud01.png using Guid(08ac644fb370b344fb6500bd4aad89b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efe01ab77e6f7da9516502de32600b6') in 0.307635 seconds 
-  Import took 0.314068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening01/Backgrounds/Sky.png
-  artifactKey: Guid(940aace457500284894745d19c0e8dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening01/Backgrounds/Sky.png using Guid(940aace457500284894745d19c0e8dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f1f9c5f331ed06d309715ac08915af') in 0.031112 seconds 
-  Import took 0.036594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening01/Backgrounds/cloud02.png
-  artifactKey: Guid(3999ca1b9c8e94042b925fbcaf6170fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening01/Backgrounds/cloud02.png using Guid(3999ca1b9c8e94042b925fbcaf6170fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5243ff9a130180bc386289c38678975') in 0.030871 seconds 
-  Import took 0.036611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening01/Backgrounds/cloud03.png
-  artifactKey: Guid(d904869647460e04b82ce4116fa98321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening01/Backgrounds/cloud03.png using Guid(d904869647460e04b82ce4116fa98321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9904598a9762e63e195e91fdf72a3382') in 0.039797 seconds 
-  Import took 0.045168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening01/Backgrounds/mountain01.png
-  artifactKey: Guid(32b710be3ecf2f3478b691382edb7ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening01/Backgrounds/mountain01.png using Guid(32b710be3ecf2f3478b691382edb7ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fde058b5fbf2293e18fed0a14556d2') in 0.043192 seconds 
-  Import took 0.049926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening01/Backgrounds/mountain02.png
-  artifactKey: Guid(18e6a7347f985de4fa38bb00ffeff3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening01/Backgrounds/mountain02.png using Guid(18e6a7347f985de4fa38bb00ffeff3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68a9a84e562a6e8e44ba5bbdd9b18d9') in 0.048287 seconds 
-  Import took 0.055163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.074999 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01
-  artifactKey: Guid(dae05b3d85e9f02439d6154f7173ff11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01 using Guid(dae05b3d85e9f02439d6154f7173ff11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49417625e580a5ab23aa3f2a425ab88f') in 0.012017 seconds 
-  Import took 0.019922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.452424 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Backgrounds
-  artifactKey: Guid(f49a15e5332d60e42a9ec637e63cb8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Backgrounds using Guid(f49a15e5332d60e42a9ec637e63cb8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34ac8bee0d1b13fd531b75d11dc6df8') in 0.006758 seconds 
-  Import took 0.013526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093605 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Backgrounds/Cloud01.png
-  artifactKey: Guid(5b07891885ea26c46bc7f67f46ffd8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Backgrounds/Cloud01.png using Guid(5b07891885ea26c46bc7f67f46ffd8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42256a385d80cb14b7e426f8ccc1a22') in 0.040586 seconds 
-  Import took 0.046783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000453 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Backgrounds/Mountain01.png
-  artifactKey: Guid(3fd9e412ff5b93d43bb2a76e2a8c9fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Backgrounds/Mountain01.png using Guid(3fd9e412ff5b93d43bb2a76e2a8c9fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152b626868ab3ec0f475f9a3ece27a17') in 0.046008 seconds 
-  Import took 0.053139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Backgrounds/cloud02.png
-  artifactKey: Guid(c7779925bd8894740b6c9cce9e4256b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Backgrounds/cloud02.png using Guid(c7779925bd8894740b6c9cce9e4256b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c2c3beaf25b29c548cb2ca0ec4afec') in 0.040525 seconds 
-  Import took 0.047146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Backgrounds/Mountain02.png
-  artifactKey: Guid(464a9148b93ef57488b34f128d027a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Backgrounds/Mountain02.png using Guid(464a9148b93ef57488b34f128d027a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d95235de55b1b5dcbf99eeb9b520c60') in 0.037724 seconds 
-  Import took 0.043977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Backgrounds/cloud03.png
-  artifactKey: Guid(89d315322b62a2944aa0014a9994618e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Backgrounds/cloud03.png using Guid(89d315322b62a2944aa0014a9994618e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61fea97163044f5d7e9bb533db8846f') in 0.030126 seconds 
-  Import took 0.038659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000474 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Backgrounds/Sky.png
-  artifactKey: Guid(bff1f088732502a44b72af07aeb7ae4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Backgrounds/Sky.png using Guid(bff1f088732502a44b72af07aeb7ae4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bc3a55b33ba2994538611258b1eb65') in 0.028957 seconds 
-  Import took 0.036072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.204963 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night02/details
-  artifactKey: Guid(e3b5cdd753c82b340ab66813b0e5e0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night02/details using Guid(e3b5cdd753c82b340ab66813b0e5e0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b2a351a75783892244eb1f8102c22d') in 0.015222 seconds 
-  Import took 0.024133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 315.152237 seconds.
-  path: Assets/Lvl2/desertBackgrounds/background.psd
-  artifactKey: Guid(b276cb920c72fa0499e511b859246879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/desertBackgrounds/background.psd using Guid(b276cb920c72fa0499e511b859246879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5977ad90f1819dd16f546f691cd07e9e') in 0.148222 seconds 
-  Import took 0.156285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000574 seconds.
-  path: Assets/Lvl2/desertBackgrounds/background2.png
-  artifactKey: Guid(87701147556d3594cbcf2dd5acea4b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/desertBackgrounds/background2.png using Guid(87701147556d3594cbcf2dd5acea4b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabab9fc875f9a1a65f318d8d68bfc50') in 0.032400 seconds 
-  Import took 0.038989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000721 seconds.
-  path: Assets/Lvl2/desertBackgrounds/background5.png
-  artifactKey: Guid(0f16d7b974434c44fbe15402abdaee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/desertBackgrounds/background5.png using Guid(0f16d7b974434c44fbe15402abdaee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97bac49bda515eb6e4da109559d6978') in 0.030722 seconds 
-  Import took 0.037982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/Lvl2/desertBackgrounds/background3.png
-  artifactKey: Guid(362ec657f0ce56549b2350f1d42afab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/desertBackgrounds/background3.png using Guid(362ec657f0ce56549b2350f1d42afab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e023bdc94c382604cc1d8b0237e726a') in 0.032681 seconds 
-  Import took 0.040520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000451 seconds.
-  path: Assets/Lvl2/desertBackgrounds/background4.png
-  artifactKey: Guid(e4ad4e7ef855c2245a6e8a60b3634b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/desertBackgrounds/background4.png using Guid(e4ad4e7ef855c2245a6e8a60b3634b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f99b8bc3748ee0e06072397f771db0') in 0.035349 seconds 
-  Import took 0.042521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000683 seconds.
-  path: Assets/Lvl2/desertBackgrounds/background1.png
-  artifactKey: Guid(da07bf69170d5304fa70f43ba443c606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/desertBackgrounds/background1.png using Guid(da07bf69170d5304fa70f43ba443c606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68333aadeb95c56569f8c078e56d1bef') in 0.031671 seconds 
-  Import took 0.037696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.528318 seconds.
-  path: Assets/Lvl2/DesertTiles/1.png
-  artifactKey: Guid(b53d2165c71790145bf7fd08ec801f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/DesertTiles/1.png using Guid(b53d2165c71790145bf7fd08ec801f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6079e13418ef7f1c447bc9cecc97bb4') in 0.024399 seconds 
-  Import took 0.029787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/Lvl2/DesertTiles/4.png
-  artifactKey: Guid(66d665c8510b6e54fa4e6dd8703e2b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/DesertTiles/4.png using Guid(66d665c8510b6e54fa4e6dd8703e2b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504cdc8978c7487444903efb01fa7d14') in 0.028244 seconds 
-  Import took 0.034430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Lvl2/DesertTiles/8.png
-  artifactKey: Guid(d6381013b0a9f6c4a8f05e85d989ca79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/DesertTiles/8.png using Guid(d6381013b0a9f6c4a8f05e85d989ca79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee172a3709d36f1700bbedb9f6589db') in 0.027147 seconds 
-  Import took 0.032912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000505 seconds.
-  path: Assets/Lvl2/DesertTiles/3.png
-  artifactKey: Guid(208f30ec3036ba846a0dc0e9b257580e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/DesertTiles/3.png using Guid(208f30ec3036ba846a0dc0e9b257580e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350cd209bbdf2767ef831994cef179dc') in 0.028346 seconds 
-  Import took 0.034184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Lvl2/DesertTiles/11.png
-  artifactKey: Guid(09b9aff4e94862c4a927b41b00833c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/DesertTiles/11.png using Guid(09b9aff4e94862c4a927b41b00833c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1742efe174b256e2430c177f10442e') in 0.031037 seconds 
-  Import took 0.037736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Lvl2/DesertTiles/9.png
-  artifactKey: Guid(2fe7e4cc635f9444f963b926ea08f2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/DesertTiles/9.png using Guid(2fe7e4cc635f9444f963b926ea08f2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da5a29c298cc884956377bc042eeb77') in 0.034988 seconds 
-  Import took 0.042352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000482 seconds.
-  path: Assets/Lvl2/DesertTiles/13.png
-  artifactKey: Guid(ca552d041383d604284bd8f12cafa476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/DesertTiles/13.png using Guid(ca552d041383d604284bd8f12cafa476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c672dab627a3ac0fcff3ecb951c69914') in 0.030339 seconds 
-  Import took 0.037396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Lvl2/DesertTiles/12.png
-  artifactKey: Guid(d6ebe81a0ea942347964a5fdbd5a7b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/DesertTiles/12.png using Guid(d6ebe81a0ea942347964a5fdbd5a7b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06f3e3a6b8737c48af461fb2f738832') in 0.030680 seconds 
-  Import took 0.038457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/Lvl2/DesertTiles/16.png
-  artifactKey: Guid(a0ab1934e9b214a4d9d565b22b31c6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/DesertTiles/16.png using Guid(a0ab1934e9b214a4d9d565b22b31c6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6511c7753e78bc4bd449931d6363867') in 0.037009 seconds 
-  Import took 0.046896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Lvl2/DesertTiles/14.png
-  artifactKey: Guid(0baeee8b20f3ed84097a9c03697714bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/DesertTiles/14.png using Guid(0baeee8b20f3ed84097a9c03697714bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c47ef7a0e42ac0b54e6190645a3669') in 0.027772 seconds 
-  Import took 0.035799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000547 seconds.
-  path: Assets/Lvl2/DesertTiles/7.png
-  artifactKey: Guid(1b0a968853c755b4eadcdb0b55ab9295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/DesertTiles/7.png using Guid(1b0a968853c755b4eadcdb0b55ab9295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b69009993824869a841ecc05dd8665') in 0.028403 seconds 
-  Import took 0.036811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Lvl2/DesertTiles/2.png
-  artifactKey: Guid(450ee61eb26000d4ba8dc926b14a2594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/DesertTiles/2.png using Guid(450ee61eb26000d4ba8dc926b14a2594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b6d7cfaa2e128279d2d54a0aac13e4') in 0.032656 seconds 
-  Import took 0.040187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/Lvl2/DesertTiles/15.png
-  artifactKey: Guid(4de81bdcb8d76f54b8f88189f70fed04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/DesertTiles/15.png using Guid(4de81bdcb8d76f54b8f88189f70fed04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93ebfcf60efb1ce9aff94dd6c1204bb') in 0.027016 seconds 
-  Import took 0.034639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000523 seconds.
-  path: Assets/Lvl2/DesertTiles/6.png
-  artifactKey: Guid(d05f74c57bef57945ae6f6b267371a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/DesertTiles/6.png using Guid(d05f74c57bef57945ae6f6b267371a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702c4dd32ea0cb2d580dc5c531c0efd0') in 0.027974 seconds 
-  Import took 0.035355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/Lvl2/DesertTiles/5.png
-  artifactKey: Guid(c523d73d8133a7e43b396e9783fbf843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/DesertTiles/5.png using Guid(c523d73d8133a7e43b396e9783fbf843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116c6cf92e2e66d426af3bc75945106f') in 0.032132 seconds 
-  Import took 0.039206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Lvl2/DesertTiles/10.png
-  artifactKey: Guid(7cfb8386d4e22274bab62ee0d57efb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl2/DesertTiles/10.png using Guid(7cfb8386d4e22274bab62ee0d57efb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d26af6d68bed2d377a6068f9ce7ddf9') in 0.029259 seconds 
-  Import took 0.036364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.038543 seconds.
-  path: Assets/Mount pack/Animations
-  artifactKey: Guid(d7dc4aa1dad84944486603e42938189e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Animations using Guid(d7dc4aa1dad84944486603e42938189e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a2b3a70ac6fd62a3591b9cda02758a') in 0.011527 seconds 
-  Import took 0.016464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.076326 seconds.
-  path: Assets/Mount pack/Sprite shapes/Ground element.asset
-  artifactKey: Guid(c0583651bdd0f7744927c5a99820e789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprite shapes/Ground element.asset using Guid(c0583651bdd0f7744927c5a99820e789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbead142485a2021337274666013b28') in 0.016135 seconds 
-  Import took 0.020981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/Mount pack/Sprite shapes/Stone liana.asset
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprite shapes/Stone liana.asset
   artifactKey: Guid(048ddf021b86a4049b0fd11f0e059122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprite shapes/Stone liana.asset using Guid(048ddf021b86a4049b0fd11f0e059122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2681fde8126cd71ddf3eaf37707690f') in 0.012926 seconds 
-  Import took 0.017960 seconds .
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprite shapes/Stone liana.asset using Guid(048ddf021b86a4049b0fd11f0e059122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93e2d196360cefb5859debf60b8fdf3') in 0.119222 seconds 
+  Import took 0.126418 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/Mount pack/Sprite shapes/Rock.asset
-  artifactKey: Guid(51699cebb89752c43bd6ee4e95f51a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprite shapes/Rock.asset using Guid(51699cebb89752c43bd6ee4e95f51a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4987af33592486af05455ed91717ab') in 0.014106 seconds 
-  Import took 0.020578 seconds .
+  Time since last request: 0.000320 seconds.
+  path: Assets/Lvl4
+  artifactKey: Guid(757a84c6239722145b245a1c7c7f87c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4 using Guid(757a84c6239722145b245a1c7c7f87c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ab9e669a9d4975a5eff6701f4fcd53') in 0.046398 seconds 
+  Import took 0.053976 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/Mount pack/Sprite shapes/Shadow.asset
-  artifactKey: Guid(b11a1551cef2c6a4cba032195c9463c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprite shapes/Shadow.asset using Guid(b11a1551cef2c6a4cba032195c9463c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58380912b31189529f82818f4dc6bd57') in 0.012979 seconds 
-  Import took 0.018143 seconds .
+  Time since last request: 0.001122 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages
+  artifactKey: Guid(49e53e50e312cd74c8f50bb0e85b3245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages using Guid(49e53e50e312cd74c8f50bb0e85b3245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def5c19e78b58262a3defcb36e77f34d') in 0.027973 seconds 
+  Import took 0.040444 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000723 seconds.
-  path: Assets/Mount pack/Sprite shapes/Ground.asset
-  artifactKey: Guid(d88d02087e2ac454ea120ffe28c9b5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprite shapes/Ground.asset using Guid(d88d02087e2ac454ea120ffe28c9b5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c408fbaee1eb032f4d9266fd698ff5') in 0.019684 seconds 
-  Import took 0.028288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000503 seconds.
-  path: Assets/Mount pack/Sprite shapes/Stone spikes.asset
-  artifactKey: Guid(b63c62a05b221674493ed4dd89746d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprite shapes/Stone spikes.asset using Guid(b63c62a05b221674493ed4dd89746d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc910fd7d7a852e2424bf111dafd843') in 0.015699 seconds 
-  Import took 0.022535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.792713 seconds.
-  path: Assets/Mount pack/Sprites/Back leafs.png
-  artifactKey: Guid(3312e7e76e63fdf43acbdadc5d86ed00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Back leafs.png using Guid(3312e7e76e63fdf43acbdadc5d86ed00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f994bb405de443d8e85e09737492dd68') in 0.089004 seconds 
-  Import took 0.097491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000534 seconds.
-  path: Assets/Mount pack/Sprites/Mounts B.png
-  artifactKey: Guid(2225e43a9e20b7f41b0e55ffc1731a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Mounts B.png using Guid(2225e43a9e20b7f41b0e55ffc1731a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f2444eaf5566965dbfcb37492bbd81') in 0.171461 seconds 
-  Import took 0.182501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000462 seconds.
-  path: Assets/Mount pack/Sprites/base main shape sides.png
-  artifactKey: Guid(b05a701117b2ea2429ceedae27da038d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/base main shape sides.png using Guid(b05a701117b2ea2429ceedae27da038d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb641f6b1cdae2b4cf01c1734b49d457') in 0.085477 seconds 
-  Import took 0.100918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000663 seconds.
-  path: Assets/Mount pack/Sprites/Mount tree.png
-  artifactKey: Guid(7153b0c555c244c4398a950c3afb91e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Mount tree.png using Guid(7153b0c555c244c4398a950c3afb91e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0b539680e65ecab4e3d1b18969b8c2') in 0.085097 seconds 
-  Import took 0.094000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Mount pack/Sprites/base main shape fill.png
-  artifactKey: Guid(84fac78d64130d9429a80f032222bcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/base main shape fill.png using Guid(84fac78d64130d9429a80f032222bcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902c2483b34025eef3fb525051c53e87') in 0.033786 seconds 
-  Import took 0.040802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Mount pack/Sprites/Cube stones.png
-  artifactKey: Guid(ef180897200dda24da381e3f36981635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Cube stones.png using Guid(ef180897200dda24da381e3f36981635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002b67206eac27bf3d50fdbc8f34eb26') in 0.091873 seconds 
-  Import took 0.097230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000514 seconds.
-  path: Assets/Mount pack/Sprites/Platforms and doors.png
-  artifactKey: Guid(f3bde8f0447607a40b3cce78567971df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Platforms and doors.png using Guid(f3bde8f0447607a40b3cce78567971df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fa742e083f96a6397766a97c42616b') in 0.124243 seconds 
-  Import took 0.131427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000537 seconds.
-  path: Assets/Mount pack/Sprites/Clouds A.png
-  artifactKey: Guid(6dcf37e341ce1f44ba8e488850783250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Clouds A.png using Guid(6dcf37e341ce1f44ba8e488850783250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7de975b99838395e0534ff8594785ca') in 0.077385 seconds 
-  Import took 0.085832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000559 seconds.
-  path: Assets/Mount pack/Sprites/Background A.png
-  artifactKey: Guid(65194dce733ce054a99fac45128a6cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Background A.png using Guid(65194dce733ce054a99fac45128a6cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c206bea993056a40e3c3191cb8832ad9') in 0.029817 seconds 
-  Import took 0.035640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000576 seconds.
-  path: Assets/Mount pack/Sprites/Moon A.png
-  artifactKey: Guid(9849cb1b26e1100449b4802fdff4bcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Moon A.png using Guid(9849cb1b26e1100449b4802fdff4bcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399a97257c76b21ee824ea195c8e9479') in 0.026617 seconds 
-  Import took 0.031897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Mount pack/Sprites/dark fill.png
-  artifactKey: Guid(56d71d1609367ae459566362b72df922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/dark fill.png using Guid(56d71d1609367ae459566362b72df922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfacf85f7c564c87d6d3743435d24e76') in 0.025934 seconds 
-  Import took 0.031713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Mount pack/Sprites/Fore leafs.png
-  artifactKey: Guid(0f340b223b4e11d498fa1736d7933702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Fore leafs.png using Guid(0f340b223b4e11d498fa1736d7933702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28fd4b9518de57760935ad202ec2bdd') in 0.079497 seconds 
-  Import took 0.087596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000439 seconds.
-  path: Assets/Mount pack/Sprites/Mounts A.png
-  artifactKey: Guid(127af048eb4d34d449d3e52428aebdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Mounts A.png using Guid(127af048eb4d34d449d3e52428aebdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c3cf7dc8a3c8a180294339f6691c65') in 0.161419 seconds 
-  Import took 0.174999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000695 seconds.
-  path: Assets/Mount pack/Sprites/Ground element.png
-  artifactKey: Guid(41c336d96e6c04e4abe23fc09fd8de99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Ground element.png using Guid(41c336d96e6c04e4abe23fc09fd8de99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f94a1fc9e4dbc3b229ea54d9adba97') in 0.050771 seconds 
-  Import took 0.057896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000549 seconds.
-  path: Assets/Mount pack/Sprites/Gradient.png
-  artifactKey: Guid(ba6296292ca67c744a8c004f7af9d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Gradient.png using Guid(ba6296292ca67c744a8c004f7af9d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b853dae7e58982319af3eced7e7e481a') in 0.024995 seconds 
-  Import took 0.034398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000541 seconds.
-  path: Assets/Mount pack/Sprites/Sky A.png
-  artifactKey: Guid(4b435b7f3b301bc46b240bfa04ada2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Sky A.png using Guid(4b435b7f3b301bc46b240bfa04ada2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e1e53e2f40bfbb4e776c08e3ed8599') in 0.047405 seconds 
-  Import took 0.053267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/Mount pack/Sprites/dark sides.png
-  artifactKey: Guid(79fb0538858eac54faeba1001dd4f273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/dark sides.png using Guid(79fb0538858eac54faeba1001dd4f273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370aa180cf48964852775dd96a7a6f6c') in 0.034273 seconds 
-  Import took 0.041886 seconds .
+  Time since last request: 0.000287 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprite shapes
+  artifactKey: Guid(e3efdd66fc7b2e9418f08aff2b421ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprite shapes using Guid(e3efdd66fc7b2e9418f08aff2b421ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9660912058d6cbcd1a036f50be3b94b') in 0.028052 seconds 
+  Import took 0.039348 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000362 seconds.
-  path: Assets/Mount pack/Sprites/Sky B.png
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack
+  artifactKey: Guid(d2f24be2474a98945b7e27ed3892716b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack using Guid(d2f24be2474a98945b7e27ed3892716b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae757e16a7372fe82463536352ee9f8') in 0.032624 seconds 
+  Import took 0.047360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprite shapes/Ground element.asset
+  artifactKey: Guid(c0583651bdd0f7744927c5a99820e789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprite shapes/Ground element.asset using Guid(c0583651bdd0f7744927c5a99820e789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20df238b469f6aab100f30295ca2e9ba') in 0.048845 seconds 
+  Import took 0.056130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprite shapes/Shadow.asset
+  artifactKey: Guid(b11a1551cef2c6a4cba032195c9463c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprite shapes/Shadow.asset using Guid(b11a1551cef2c6a4cba032195c9463c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42b229020b97830b95b15489652db5c') in 0.024730 seconds 
+  Import took 0.040370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprite shapes/Rock.asset
+  artifactKey: Guid(51699cebb89752c43bd6ee4e95f51a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprite shapes/Rock.asset using Guid(51699cebb89752c43bd6ee4e95f51a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c38ca37b4740e98b425d23c2b99597') in 0.032883 seconds 
+  Import took 0.041395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprite shapes/Ground.asset
+  artifactKey: Guid(d88d02087e2ac454ea120ffe28c9b5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprite shapes/Ground.asset using Guid(d88d02087e2ac454ea120ffe28c9b5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff66aca206ea93ed0afeef4462f2368') in 0.030710 seconds 
+  Import took 0.039361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprite shapes/Stone spikes.asset
+  artifactKey: Guid(b63c62a05b221674493ed4dd89746d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprite shapes/Stone spikes.asset using Guid(b63c62a05b221674493ed4dd89746d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb4f2d019733a4b6d1ebaef44901945') in 0.039043 seconds 
+  Import took 0.048964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.595042 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites
+  artifactKey: Guid(d7544fba96017c04c8c573d26d18903d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites using Guid(d7544fba96017c04c8c573d26d18903d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dbe466e1cc839bb96f7b207e6dca82') in 0.028282 seconds 
+  Import took 0.035729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115158 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Back leafs.png
+  artifactKey: Guid(3312e7e76e63fdf43acbdadc5d86ed00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Back leafs.png using Guid(3312e7e76e63fdf43acbdadc5d86ed00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cf4e7b6de8a43a7f4f4fc7eed1207f') in 0.432319 seconds 
+  Import took 0.449240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/base main shape sides.png
+  artifactKey: Guid(b05a701117b2ea2429ceedae27da038d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/base main shape sides.png using Guid(b05a701117b2ea2429ceedae27da038d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72191d668b84b91c4bf33b97c043eb3c') in 0.099376 seconds 
+  Import took 0.106129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/base main shape fill.png
+  artifactKey: Guid(84fac78d64130d9429a80f032222bcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/base main shape fill.png using Guid(84fac78d64130d9429a80f032222bcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb6e1b570396b72232cb01966b8f8f1') in 0.073020 seconds 
+  Import took 0.083652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Cube stones.png
+  artifactKey: Guid(ef180897200dda24da381e3f36981635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Cube stones.png using Guid(ef180897200dda24da381e3f36981635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fe1f067f31ec310797d9acb5fc1061') in 0.137265 seconds 
+  Import took 0.144421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Clouds A.png
+  artifactKey: Guid(6dcf37e341ce1f44ba8e488850783250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Clouds A.png using Guid(6dcf37e341ce1f44ba8e488850783250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936430e7fbf17d80ff08956c0bc30a08') in 0.125534 seconds 
+  Import took 0.136950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Background A.png
+  artifactKey: Guid(65194dce733ce054a99fac45128a6cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Background A.png using Guid(65194dce733ce054a99fac45128a6cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a60bf06af556170bc310b0bc2a8a6ba') in 0.041145 seconds 
+  Import took 0.062074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Moon A.png
+  artifactKey: Guid(9849cb1b26e1100449b4802fdff4bcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Moon A.png using Guid(9849cb1b26e1100449b4802fdff4bcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b137ade77f7c31ba95b71c765909eef4') in 0.181393 seconds 
+  Import took 0.206128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Mounts B.png
+  artifactKey: Guid(2225e43a9e20b7f41b0e55ffc1731a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Mounts B.png using Guid(2225e43a9e20b7f41b0e55ffc1731a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c983a78ee0963b85d6fc09d8d36d42e') in 0.197004 seconds 
+  Import took 0.227717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Mount tree.png
+  artifactKey: Guid(7153b0c555c244c4398a950c3afb91e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Mount tree.png using Guid(7153b0c555c244c4398a950c3afb91e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4782d39a640c185cee5bd0cc08a23a') in 0.137959 seconds 
+  Import took 0.149346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Platforms and doors.png
+  artifactKey: Guid(f3bde8f0447607a40b3cce78567971df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Platforms and doors.png using Guid(f3bde8f0447607a40b3cce78567971df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9245dd1bb3e2da50c48cc1b1b44a331') in 0.203101 seconds 
+  Import took 0.219294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/dark fill.png
+  artifactKey: Guid(56d71d1609367ae459566362b72df922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/dark fill.png using Guid(56d71d1609367ae459566362b72df922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42790197f2e22942ada7e74d7d736f3b') in 0.149888 seconds 
+  Import took 0.160962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Fore leafs.png
+  artifactKey: Guid(0f340b223b4e11d498fa1736d7933702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Fore leafs.png using Guid(0f340b223b4e11d498fa1736d7933702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbab593e4b9ba81244438d2e222caaf') in 0.119574 seconds 
+  Import took 0.133837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001238 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Mounts A.png
+  artifactKey: Guid(127af048eb4d34d449d3e52428aebdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Mounts A.png using Guid(127af048eb4d34d449d3e52428aebdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3dac3d6ac6b1303a8c58f4ebe37de78') in 0.180199 seconds 
+  Import took 0.194100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Ground element.png
+  artifactKey: Guid(41c336d96e6c04e4abe23fc09fd8de99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Ground element.png using Guid(41c336d96e6c04e4abe23fc09fd8de99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575bd48dc5df326f46fecde875ccfbb4') in 0.061550 seconds 
+  Import took 0.068997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000648 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Gradient.png
+  artifactKey: Guid(ba6296292ca67c744a8c004f7af9d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Gradient.png using Guid(ba6296292ca67c744a8c004f7af9d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f5506a440b73e3ca8773b03bc1b7e3') in 0.088177 seconds 
+  Import took 0.095732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Sky A.png
+  artifactKey: Guid(4b435b7f3b301bc46b240bfa04ada2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Sky A.png using Guid(4b435b7f3b301bc46b240bfa04ada2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5dadeee553a5701c55136ea353308f') in 0.159035 seconds 
+  Import took 0.172345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/dark sides.png
+  artifactKey: Guid(79fb0538858eac54faeba1001dd4f273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/dark sides.png using Guid(79fb0538858eac54faeba1001dd4f273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdfaec579445508d72cff9cf0cce756') in 0.061886 seconds 
+  Import took 0.089995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Sky B.png
   artifactKey: Guid(cfb3fc7b8c17ad04ba541384084c4fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Sky B.png using Guid(cfb3fc7b8c17ad04ba541384084c4fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386dd0faed9c9990c6927efb00718624') in 0.036523 seconds 
-  Import took 0.040795 seconds .
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Sky B.png using Guid(cfb3fc7b8c17ad04ba541384084c4fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be53158b8f07fbe3044e217ade88aebe') in 0.082208 seconds 
+  Import took 0.094148 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Mount pack/Sprites/Rocks.png
+  Time since last request: 0.000620 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Rocks.png
   artifactKey: Guid(456800a096584834c980befda619d748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Rocks.png using Guid(456800a096584834c980befda619d748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc1dc1bc113e24fadc09857fe4bfb52') in 0.198214 seconds 
-  Import took 0.209238 seconds .
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Rocks.png using Guid(456800a096584834c980befda619d748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11d60b8556407eaddb14348951afe8d') in 0.240591 seconds 
+  Import took 0.255833 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000493 seconds.
-  path: Assets/Mount pack/Sprites/Clouds small B.png
+  Time since last request: 0.000546 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Clouds small B.png
   artifactKey: Guid(a6ba147e56f972241a58c48cb831cbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Clouds small B.png using Guid(a6ba147e56f972241a58c48cb831cbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ce9aa9e03a34fcaed2e6350ef25b23') in 0.070162 seconds 
-  Import took 0.085796 seconds .
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Clouds small B.png using Guid(a6ba147e56f972241a58c48cb831cbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a28438707ae15710d559ae8aaa01c2e') in 0.090523 seconds 
+  Import took 0.098655 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/Mount pack/Sprites/Back rock A.png
+  Time since last request: 0.000309 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Back rock A.png
   artifactKey: Guid(e53c461be9be70c48b2e0e7870387469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Back rock A.png using Guid(e53c461be9be70c48b2e0e7870387469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bba1d7272c8e69d15820053e36a2f30') in 0.069386 seconds 
-  Import took 0.078227 seconds .
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Back rock A.png using Guid(e53c461be9be70c48b2e0e7870387469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e971ab89828512981e5ed6aa04e0762c') in 0.089368 seconds 
+  Import took 0.099118 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000551 seconds.
-  path: Assets/Mount pack/Sprites/Clouds small A.png
+  Time since last request: 0.000300 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Clouds small A.png
   artifactKey: Guid(2f1f5aac08aa0114b87ed9b71df9391b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Clouds small A.png using Guid(2f1f5aac08aa0114b87ed9b71df9391b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da67b3691a0fc5ea8a7a0f59288eb366') in 0.062453 seconds 
-  Import took 0.067760 seconds .
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Clouds small A.png using Guid(2f1f5aac08aa0114b87ed9b71df9391b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25f6477d169dc61eb980808641b1bf3') in 0.078045 seconds 
+  Import took 0.088862 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Mount pack/Sprites/light 1.png
+  Time since last request: 0.000286 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/light 1.png
   artifactKey: Guid(4a3cc904dd7173040bce76d0171b0f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/light 1.png using Guid(4a3cc904dd7173040bce76d0171b0f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a226e0d9e1f05ef105540cf67464761d') in 0.039127 seconds 
-  Import took 0.043877 seconds .
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/light 1.png using Guid(4a3cc904dd7173040bce76d0171b0f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607a497f91d500dc66271dd34ae2200a') in 0.051801 seconds 
+  Import took 0.064752 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000518 seconds.
-  path: Assets/Mount pack/Sprites/Back rock B.png
+  Time since last request: 0.000322 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Back rock B.png
   artifactKey: Guid(d028bcde385e8854db56d658c912e2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Back rock B.png using Guid(d028bcde385e8854db56d658c912e2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a2bdc9eb9d164d3d5f0f16df663101') in 0.063569 seconds 
-  Import took 0.068416 seconds .
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Back rock B.png using Guid(d028bcde385e8854db56d658c912e2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c84fd24a72db08a661c3bb6e4b3cb4f') in 0.090666 seconds 
+  Import took 0.105108 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000459 seconds.
-  path: Assets/Mount pack/Sprites/Danger spikes.png
+  Time since last request: 0.000317 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Danger spikes.png
   artifactKey: Guid(28dd48aaf43a7404fb68161934cdfcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Danger spikes.png using Guid(28dd48aaf43a7404fb68161934cdfcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea42e5490f19171c8bfef0fe7d5e10d6') in 0.059319 seconds 
-  Import took 0.065892 seconds .
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Danger spikes.png using Guid(28dd48aaf43a7404fb68161934cdfcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77a71f3bb69a70057a80af33ab85aab') in 0.074497 seconds 
+  Import took 0.080577 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000511 seconds.
-  path: Assets/Mount pack/Sprites/Moon B.png
+  Time since last request: 0.000293 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Moon B.png
   artifactKey: Guid(4fcf59c85bfe5554f8d40372c3c95650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Moon B.png using Guid(4fcf59c85bfe5554f8d40372c3c95650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19163de1ff98374e129644e9e9d89ff') in 0.037414 seconds 
-  Import took 0.043578 seconds .
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Moon B.png using Guid(4fcf59c85bfe5554f8d40372c3c95650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3326158e7c8c4bdfa2b908e5c779220f') in 0.045039 seconds 
+  Import took 0.059040 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Mount pack/Sprites/Clouds B.png
+  Time since last request: 0.000284 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Clouds B.png
   artifactKey: Guid(260b9b85317afca42905c10a0e55ff25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Clouds B.png using Guid(260b9b85317afca42905c10a0e55ff25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bd6667298e480ac680427c9cace324') in 0.077073 seconds 
-  Import took 0.084317 seconds .
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Clouds B.png using Guid(260b9b85317afca42905c10a0e55ff25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d08a58612faa91e1491ea58fa1c3778') in 0.110166 seconds 
+  Import took 0.120999 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000711 seconds.
-  path: Assets/Mount pack/Sprites/light 2.png
+  Time since last request: 0.000406 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/light 2.png
   artifactKey: Guid(17277bba658c7bc4a90aa463c7c8e9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/light 2.png using Guid(17277bba658c7bc4a90aa463c7c8e9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c541e5f580b3f9d994423bdb5e9768d6') in 0.038764 seconds 
-  Import took 0.046220 seconds .
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/light 2.png using Guid(17277bba658c7bc4a90aa463c7c8e9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1e7518d3e58911d4324d88afbc6be2') in 0.100107 seconds 
+  Import took 0.120913 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000516 seconds.
-  path: Assets/Mount pack/Sprites/Square.png
+  Time since last request: 0.000517 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Square.png
   artifactKey: Guid(715178ed03981d345a1289907b672587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/Square.png using Guid(715178ed03981d345a1289907b672587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcad38f0de055f3ad999fe0e04cdc46') in 0.028257 seconds 
-  Import took 0.034003 seconds .
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/Square.png using Guid(715178ed03981d345a1289907b672587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b882178772b41ae2115489512b2ed1c1') in 0.111428 seconds 
+  Import took 0.124504 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Mount pack/Sprites/base element.png
+  Time since last request: 0.000452 seconds.
+  path: Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/base element.png
   artifactKey: Guid(5f2ce9f2f2fd2554da384639ca250ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Sprites/base element.png using Guid(5f2ce9f2f2fd2554da384639ca250ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62ecf89b917c4b0a51246319bdfc572') in 0.078323 seconds 
-  Import took 0.085302 seconds .
+Start importing Assets/Lvl4/MountainBackgroundImages/Mount pack/Sprites/base element.png using Guid(5f2ce9f2f2fd2554da384639ca250ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c279d5e22409daf428e9fbb41e67820') in 0.100292 seconds 
+  Import took 0.115064 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.804179 seconds.
-  path: Assets/Mount pack/Prefabs/Button Big.prefab
-  artifactKey: Guid(9d63b38ff28c36342947f6f630050163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Prefabs/Button Big.prefab using Guid(9d63b38ff28c36342947f6f630050163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfc16422cb674bdf9b5c44ff4dcd725') in 0.098728 seconds 
-  Import took 0.105954 seconds .
+  Time since last request: 23.147824 seconds.
+  path: Assets/Lvl4/VolcanoBackgroundImage
+  artifactKey: Guid(00c71c661ed77e2489e5789dd9115a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/VolcanoBackgroundImage using Guid(00c71c661ed77e2489e5789dd9115a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7513586c5367c38a5b8dce34e2c37f5') in 0.026257 seconds 
+  Import took 0.074909 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000629 seconds.
-  path: Assets/Mount pack/Prefabs/TREE A.prefab
-  artifactKey: Guid(100f323a32a4383449d424f52ac96478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Prefabs/TREE A.prefab using Guid(100f323a32a4383449d424f52ac96478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c45c67ca9006506d053103a75f0b117') in 0.118232 seconds 
-  Import took 0.131349 seconds .
+  Time since last request: 0.883177 seconds.
+  path: Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds
+  artifactKey: Guid(537bb9895670808458bb9c7caa8b0e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds using Guid(537bb9895670808458bb9c7caa8b0e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cf9c82a460ab2a6e1cc9d603b69939') in 0.025096 seconds 
+  Import took 0.033042 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Mount pack/Prefabs/Mound and clouds B.prefab
-  artifactKey: Guid(2bbf818d16f662342b5a3f1165d3d3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Prefabs/Mound and clouds B.prefab using Guid(2bbf818d16f662342b5a3f1165d3d3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a236b840a5a1fc632aeb8a26dcc46ce') in 0.262025 seconds 
-  Import took 0.281053 seconds .
+  Time since last request: 0.970249 seconds.
+  path: Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano
+  artifactKey: Guid(7a1d0d3dc0139db4cae9f91e561a0679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano using Guid(7a1d0d3dc0139db4cae9f91e561a0679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296df8b88d6564559f170bab8394900a') in 0.026733 seconds 
+  Import took 0.038371 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000540 seconds.
-  path: Assets/Mount pack/Prefabs/Danger spikes.prefab
-  artifactKey: Guid(39af3e48027b032429b49a9a5fee9a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Prefabs/Danger spikes.prefab using Guid(39af3e48027b032429b49a9a5fee9a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d83af349c1b74556051b60b9017e49') in 0.031152 seconds 
-  Import took 0.037837 seconds .
+  Time since last request: 0.221732 seconds.
+  path: Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano/Sources.psd
+  artifactKey: Guid(0053600ca43f9cc4095812ebabf439a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano/Sources.psd using Guid(0053600ca43f9cc4095812ebabf439a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50743213b860638b269ea3f30f9d6aec') in 0.029629 seconds 
+  Import took 0.039309 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Mount pack/Prefabs/Door.prefab
-  artifactKey: Guid(bb0d7ff5fdbc9204f9fc14ed291557cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Prefabs/Door.prefab using Guid(bb0d7ff5fdbc9204f9fc14ed291557cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2a75851b836105b15d908988cca2d3') in 0.042470 seconds 
-  Import took 0.048803 seconds .
+  Time since last request: 8.354815 seconds.
+  path: Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano/Layers
+  artifactKey: Guid(2a5a9380c00a5d54e9b76f39e66650c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano/Layers using Guid(2a5a9380c00a5d54e9b76f39e66650c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c09ae1c4830aa9e79a0bd1d5d31059f') in 0.017538 seconds 
+  Import took 0.042485 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/Mount pack/Prefabs/Platform.prefab
-  artifactKey: Guid(74409b89c28e4bf42af73cc470804917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Prefabs/Platform.prefab using Guid(74409b89c28e4bf42af73cc470804917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de677b09a68742cbf3bb1fb4d48454f9') in 0.033715 seconds 
-  Import took 0.037932 seconds .
+  Time since last request: 0.134792 seconds.
+  path: Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano/Layers/Layer0.png
+  artifactKey: Guid(60e27e0ce7a6c6346af561e984ee1716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano/Layers/Layer0.png using Guid(60e27e0ce7a6c6346af561e984ee1716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65edf62683a1727673139938d934e7ba') in 0.047678 seconds 
+  Import took 0.057132 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000538 seconds.
-  path: Assets/Mount pack/Prefabs/TREE C.prefab
-  artifactKey: Guid(35a24bbd43bdf3343ac852077d9c1528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Prefabs/TREE C.prefab using Guid(35a24bbd43bdf3343ac852077d9c1528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a483cf4503e39f844575b401724b5e') in 0.121140 seconds 
-  Import took 0.128405 seconds .
+  Time since last request: 0.000325 seconds.
+  path: Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano/Layers/Layer1.png
+  artifactKey: Guid(aec8f168a8b540b4781d5edfe331096c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano/Layers/Layer1.png using Guid(aec8f168a8b540b4781d5edfe331096c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d85176f31bbdb76cb7e9f37be38e191') in 0.087084 seconds 
+  Import took 0.105843 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Mount pack/Prefabs/TREE B.prefab
-  artifactKey: Guid(ea667518703b86a40a2032e65ee9e68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Prefabs/TREE B.prefab using Guid(ea667518703b86a40a2032e65ee9e68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075f6c5fb390c0ac2425f33b60f5b112') in 0.112983 seconds 
-  Import took 0.134406 seconds .
+  Time since last request: 0.000327 seconds.
+  path: Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano/Layers/Layer2.png
+  artifactKey: Guid(7b265da0ed222db4482809166ac73a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano/Layers/Layer2.png using Guid(7b265da0ed222db4482809166ac73a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e969537e058e8fd49731d05332e7ae') in 0.121159 seconds 
+  Import took 0.129411 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000598 seconds.
-  path: Assets/Mount pack/Prefabs/Cube.prefab
-  artifactKey: Guid(6e57a25c18525004fa1c7342cab9610e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Prefabs/Cube.prefab using Guid(6e57a25c18525004fa1c7342cab9610e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd423f10c2d162c4747d87d331e665622') in 0.030066 seconds 
-  Import took 0.036955 seconds .
+  Time since last request: 0.001881 seconds.
+  path: Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano/Layers/Layer3.png
+  artifactKey: Guid(bca7a8528e7ab7c4690405b6d97d5bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano/Layers/Layer3.png using Guid(bca7a8528e7ab7c4690405b6d97d5bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977bbca11efd9ba526cd059fde19537c') in 0.093013 seconds 
+  Import took 0.104946 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/Mount pack/Prefabs/Element.prefab
-  artifactKey: Guid(8648731bae0e6c941b39a012d96f1bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Prefabs/Element.prefab using Guid(8648731bae0e6c941b39a012d96f1bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb3a6a7ea1a582aedcdbf5146e5f94a') in 0.034270 seconds 
-  Import took 0.041211 seconds .
+  Time since last request: 0.000470 seconds.
+  path: Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano/Layers/Layer4.png
+  artifactKey: Guid(c9f308dbe12143e40a17ad5234894fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano/Layers/Layer4.png using Guid(c9f308dbe12143e40a17ad5234894fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dfbda709a80729ddebd56625c71cc8') in 0.066270 seconds 
+  Import took 0.077122 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/Mount pack/Prefabs/simple platform.prefab
-  artifactKey: Guid(d0ad4a4945a8ab046860d997500dd063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Prefabs/simple platform.prefab using Guid(d0ad4a4945a8ab046860d997500dd063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfeb6d97ddf0a19d566adbcc4451361') in 0.036349 seconds 
-  Import took 0.043343 seconds .
+  Time since last request: 162.771761 seconds.
+  path: Assets/Lvl2/DesertTiles
+  artifactKey: Guid(7b6a09b8109f9e541bdee6b4caa19e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl2/DesertTiles using Guid(7b6a09b8109f9e541bdee6b4caa19e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4835a6e925782411f308bc2151f232c3') in 0.033014 seconds 
+  Import took 0.042662 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000589 seconds.
-  path: Assets/Mount pack/Prefabs/Stone element.prefab
-  artifactKey: Guid(46b81afcf8a3ec4438e75ae192328b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mount pack/Prefabs/Stone element.prefab using Guid(46b81afcf8a3ec4438e75ae192328b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8c1ca9f33441a371c113d5b408a2ed') in 0.046365 seconds 
-  Import took 0.054324 seconds .
+  Time since last request: 10.293871 seconds.
+  path: Assets/Lvl1/MainCharacter/Darwin.png
+  artifactKey: Guid(4ee5843fc71c6954ab9daafa40de566c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl1/MainCharacter/Darwin.png using Guid(4ee5843fc71c6954ab9daafa40de566c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc90b46a5b9b36d6962ca0d10a92506a') in 0.141604 seconds 
+  Import took 0.147245 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.849289 seconds.
-  path: Assets/Lvl4/MountainBackgroundImages
-  artifactKey: Guid(49e53e50e312cd74c8f50bb0e85b3245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl4/MountainBackgroundImages using Guid(49e53e50e312cd74c8f50bb0e85b3245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639785fd57a2fd15290d7d247a1463bf') in 0.014269 seconds 
-  Import took 0.020301 seconds .
+  Time since last request: 3.455492 seconds.
+  path: Assets/Lvl1/Scenes/SceneLvl1.unity
+  artifactKey: Guid(413818567bf89bf4789fe176d8341935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl1/Scenes/SceneLvl1.unity using Guid(413818567bf89bf4789fe176d8341935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a76ed0490640217659a4c5241a375e') in 0.034047 seconds 
+  Import took 0.042380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.994198 seconds.
+  path: Assets/Lvl4/SceneLvl4.unity
+  artifactKey: Guid(0199131c1fc51d942a39569197a55205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/SceneLvl4.unity using Guid(0199131c1fc51d942a39569197a55205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac69f25485a6d563f7ad00ae0154657') in 0.030952 seconds 
+  Import took 0.044624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.724294 seconds.
+  path: Assets/Lvl4/SceneLvl4.unity
+  artifactKey: Guid(0199131c1fc51d942a39569197a55205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/SceneLvl4.unity using Guid(0199131c1fc51d942a39569197a55205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b379c12e886abbb8673acabc1ba1f6') in 0.015101 seconds 
+  Import took 0.033942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.560587 seconds.
+  path: Assets/Lvl3/SceneLvl3.unity
+  artifactKey: Guid(47f7e6e6fb825a043ac26b383d86bd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl3/SceneLvl3.unity using Guid(47f7e6e6fb825a043ac26b383d86bd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c505d4154462a34c10f6e12eacc16a') in 0.025083 seconds 
+  Import took 0.033365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.751733 seconds.
+  path: Assets/Lvl4/_VolcanoBackground.prefab
+  artifactKey: Guid(0fa70cae394e30a429e28d8363a1a6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/_VolcanoBackground.prefab using Guid(0fa70cae394e30a429e28d8363a1a6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064528b26deb1d21afca5392a8a18b66') in 0.221831 seconds 
+  Import took 0.230317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.905040 seconds.
+  path: Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano/Example.unity
+  artifactKey: Guid(0d3ab1dc02cbaaf4cb8ec8b9460a4452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds/Volcano/Example.unity using Guid(0d3ab1dc02cbaaf4cb8ec8b9460a4452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec10e7b27b531493568da051df47233') in 0.021032 seconds 
+  Import took 0.036209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 645.154301 seconds.
+  path: Assets/Lvl4/SceneLvl4.unity
+  artifactKey: Guid(0199131c1fc51d942a39569197a55205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/SceneLvl4.unity using Guid(0199131c1fc51d942a39569197a55205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae6deb028b4210074928213c4c3a77d') in 0.024011 seconds 
+  Import took 0.037375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.228643 seconds.
+  path: Assets/Scripts/Camera2DFollow.cs
+  artifactKey: Guid(85470f74a1b5bd24b89f45f4ffa3529b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Camera2DFollow.cs using Guid(85470f74a1b5bd24b89f45f4ffa3529b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac85fe8d885790fb6ec2009e078ee38') in 0.052792 seconds 
+  Import took 0.061380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 252.300208 seconds.
+  path: Assets/Lvl4/SceneLvl4.unity
+  artifactKey: Guid(0199131c1fc51d942a39569197a55205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lvl4/SceneLvl4.unity using Guid(0199131c1fc51d942a39569197a55205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364e56bd457470316f45f93c15cd210b') in 0.022308 seconds 
+  Import took 0.036157 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008715 seconds.
+Registered in 0.008786 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.141 seconds
+- Completed reload, in  4.616 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2141ms)
-		BeginReloadAssembly (218ms)
+	ReloadAssembly (4617ms)
+		BeginReloadAssembly (306ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (1817ms)
-			LoadAssemblies (212ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (3877ms)
+			LoadAssemblies (444ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (631ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (99ms)
-			SetupLoadedEditorAssemblies (676ms)
+			SetupTypeCache (1448ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (289ms)
+			SetupLoadedEditorAssemblies (1084ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (38ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (213ms)
-				ProcessInitializeOnLoadAttributes (413ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (288ms)
+				ProcessInitializeOnLoadAttributes (653ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (20ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2203 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 99.2 MB.
 System memory in use after: 99.4 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2822.
-Total: 3.828400 ms (FindLiveObjects: 0.209200 ms CreateObjectMapping: 0.078600 ms MarkObjects: 3.462500 ms  DeleteObjects: 0.062700 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2811.
+Total: 8.552300 ms (FindLiveObjects: 0.442400 ms CreateObjectMapping: 0.284300 ms MarkObjects: 7.727100 ms  DeleteObjects: 0.096500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -946,128 +681,112 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 71.204218 seconds.
-  path: Assets/DynamicBackgrounds/Volcano
-  artifactKey: Guid(7a1d0d3dc0139db4cae9f91e561a0679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicBackgrounds/Volcano using Guid(7a1d0d3dc0139db4cae9f91e561a0679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1f1390ea0c60f7cf4666d32d165cb4') in 0.021160 seconds 
-  Import took 0.026678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034126 seconds.
-  path: Assets/DynamicBackgrounds/Volcano/Sources.psd
-  artifactKey: Guid(0053600ca43f9cc4095812ebabf439a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicBackgrounds/Volcano/Sources.psd using Guid(0053600ca43f9cc4095812ebabf439a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2801ed2b1d11a52dbc05d35007a6c4fe') in 0.082385 seconds 
-  Import took 0.089553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.919204 seconds.
-  path: Assets/DynamicBackgrounds/Volcano/Layers
-  artifactKey: Guid(2a5a9380c00a5d54e9b76f39e66650c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicBackgrounds/Volcano/Layers using Guid(2a5a9380c00a5d54e9b76f39e66650c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a868fea940e71511d169203d397ba9') in 0.012689 seconds 
-  Import took 0.019003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.172882 seconds.
-  path: Assets/DynamicBackgrounds/Volcano/Layers/Layer0.png
-  artifactKey: Guid(60e27e0ce7a6c6346af561e984ee1716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicBackgrounds/Volcano/Layers/Layer0.png using Guid(60e27e0ce7a6c6346af561e984ee1716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7871c9840a58d63f7237887fabf06f5') in 0.076821 seconds 
-  Import took 0.085227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000528 seconds.
-  path: Assets/DynamicBackgrounds/Volcano/Layers/Layer1.png
-  artifactKey: Guid(aec8f168a8b540b4781d5edfe331096c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicBackgrounds/Volcano/Layers/Layer1.png using Guid(aec8f168a8b540b4781d5edfe331096c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1207059efcf0fbd3bbcb0e9a92a6da5') in 0.037332 seconds 
-  Import took 0.044355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000804 seconds.
-  path: Assets/DynamicBackgrounds/Volcano/Layers/Layer2.png
-  artifactKey: Guid(7b265da0ed222db4482809166ac73a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicBackgrounds/Volcano/Layers/Layer2.png using Guid(7b265da0ed222db4482809166ac73a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf682d68949ad5ca1ed31e083a9e565') in 0.037301 seconds 
-  Import took 0.043523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000825 seconds.
-  path: Assets/DynamicBackgrounds/Volcano/Layers/Layer3.png
-  artifactKey: Guid(bca7a8528e7ab7c4690405b6d97d5bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicBackgrounds/Volcano/Layers/Layer3.png using Guid(bca7a8528e7ab7c4690405b6d97d5bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29252d45765b819f75547faada0e3a96') in 0.041399 seconds 
-  Import took 0.050567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000649 seconds.
-  path: Assets/DynamicBackgrounds/Volcano/Layers/Layer4.png
-  artifactKey: Guid(c9f308dbe12143e40a17ad5234894fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicBackgrounds/Volcano/Layers/Layer4.png using Guid(c9f308dbe12143e40a17ad5234894fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6feae71e77d768edfb44f1fc083905') in 0.035724 seconds 
-  Import took 0.041642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.757269 seconds.
-  path: Assets/Lvl4/VolcanoBackgroundImage
-  artifactKey: Guid(00c71c661ed77e2489e5789dd9115a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl4/VolcanoBackgroundImage using Guid(00c71c661ed77e2489e5789dd9115a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0459243cb7a0c9a878eb1f2051934f') in 0.010026 seconds 
-  Import took 0.014208 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009466 seconds.
+Registered in 0.008262 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.036 seconds
+- Completed reload, in  3.491 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2036ms)
-		BeginReloadAssembly (210ms)
+	ReloadAssembly (3494ms)
+		BeginReloadAssembly (356ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (19ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1698ms)
-			LoadAssemblies (179ms)
+			CreateAndSetChildDomain (118ms)
+		EndReloadAssembly (2871ms)
+			LoadAssemblies (293ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (578ms)
+			SetupTypeCache (975ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (675ms)
+			RebuildScriptCaches (179ms)
+			SetupLoadedEditorAssemblies (1111ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (226ms)
-				ProcessInitializeOnLoadAttributes (396ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (21ms)
+				BeforeProcessingInitializeOnLoad (277ms)
+				ProcessInitializeOnLoadAttributes (763ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (19ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
+			AwakeInstancesAfterBackupRestoration (52ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2814.
+Total: 28.742000 ms (FindLiveObjects: 0.789800 ms CreateObjectMapping: 4.459700 ms MarkObjects: 23.317100 ms  DeleteObjects: 0.168500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022393 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.601 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2601ms)
+		BeginReloadAssembly (318ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (2146ms)
+			LoadAssemblies (296ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (750ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (786ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (522ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2203 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 99.2 MB.
 System memory in use after: 99.5 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2827.
-Total: 5.407300 ms (FindLiveObjects: 0.328100 ms CreateObjectMapping: 0.115800 ms MarkObjects: 4.904400 ms  DeleteObjects: 0.056500 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2817.
+Total: 4.455000 ms (FindLiveObjects: 0.279000 ms CreateObjectMapping: 0.185500 ms MarkObjects: 3.963800 ms  DeleteObjects: 0.025000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1076,152 +795,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 26.180979 seconds.
-  path: Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds
-  artifactKey: Guid(537bb9895670808458bb9c7caa8b0e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl4/VolcanoBackgroundImage/DynamicBackgrounds using Guid(537bb9895670808458bb9c7caa8b0e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f6960abd354168ae6b76384de90d1c') in 0.017502 seconds 
-  Import took 0.024084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.938567 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_day01
-  artifactKey: Guid(42d86a8bde996ea45bb53f6f1aed9b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_day01 using Guid(42d86a8bde996ea45bb53f6f1aed9b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c207e7fafef0c9907486301543fbbef') in 0.014435 seconds 
-  Import took 0.021662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.410152 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_day01/Backgrounds
-  artifactKey: Guid(708cde9d0196b21439b24938f3508ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_day01/Backgrounds using Guid(708cde9d0196b21439b24938f3508ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365908987747696029753af9fc6a03ef') in 0.013930 seconds 
-  Import took 0.021005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.083771 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_day01/Backgrounds/cloud01.png
-  artifactKey: Guid(a93a876b824f7ea42a6d121f0197b8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_day01/Backgrounds/cloud01.png using Guid(a93a876b824f7ea42a6d121f0197b8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77719d4c24406d7258cdafc7112521c') in 0.116243 seconds 
-  Import took 0.123169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000578 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_day01/Backgrounds/mountain01.png
-  artifactKey: Guid(3ef1334b0ff1ec44a846e3ca9b8fc80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_day01/Backgrounds/mountain01.png using Guid(3ef1334b0ff1ec44a846e3ca9b8fc80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee2b2993d09deb375c42b05621a4d14') in 0.039684 seconds 
-  Import took 0.045892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000817 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_day01/Backgrounds/mountain02.png
-  artifactKey: Guid(7cc4f0815c172ce46ad91b303bac1202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_day01/Backgrounds/mountain02.png using Guid(7cc4f0815c172ce46ad91b303bac1202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62e7c77a1f65e1df99132b7a0720b8d') in 0.034438 seconds 
-  Import took 0.041088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000889 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_day01/Backgrounds/Sky.png
-  artifactKey: Guid(7b5e5778ea718ec49983281de2f1bb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_day01/Backgrounds/Sky.png using Guid(7b5e5778ea718ec49983281de2f1bb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9767da01549dc20f22259784f850b81') in 0.030892 seconds 
-  Import took 0.036005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000558 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_day01/Backgrounds/cloud02.png
-  artifactKey: Guid(5d563629d0e20944b959d146542288b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_day01/Backgrounds/cloud02.png using Guid(5d563629d0e20944b959d146542288b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2b354259a72b63e26723f920ad86fb') in 0.030655 seconds 
-  Import took 0.039591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000750 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_day01/Backgrounds/cloud03.png
-  artifactKey: Guid(df24f52f5b215b94c80a8a4fe35e0332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_day01/Backgrounds/cloud03.png using Guid(df24f52f5b215b94c80a8a4fe35e0332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8257e6eb4e62525b3e5998bd575796e') in 0.035087 seconds 
-  Import took 0.042280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.643795 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening02/Front_grounds/detail01.png
-  artifactKey: Guid(afc069e0b725a08458e4b57835924e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening02/Front_grounds/detail01.png using Guid(afc069e0b725a08458e4b57835924e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6190696f00865230668bea7944e699') in 0.033269 seconds 
-  Import took 0.038827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000555 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening02/Front_grounds/detail03.png
-  artifactKey: Guid(d7d700edf5901e342a6078c54a81baf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening02/Front_grounds/detail03.png using Guid(d7d700edf5901e342a6078c54a81baf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2741a21d73a6f873049844615ea02679') in 0.035950 seconds 
-  Import took 0.041060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000666 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening02/Front_grounds/detail05.png
-  artifactKey: Guid(b29e65aaa6382794da6d85b84678a43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening02/Front_grounds/detail05.png using Guid(b29e65aaa6382794da6d85b84678a43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00cb6f69364351221e744743943c9d3e') in 0.037278 seconds 
-  Import took 0.041618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000526 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening02/Front_grounds/detail04.png
-  artifactKey: Guid(a89bc8bb1999b8544af1e7be006f1cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening02/Front_grounds/detail04.png using Guid(a89bc8bb1999b8544af1e7be006f1cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a87dc817fa393dd6c67cbedc9630865') in 0.030938 seconds 
-  Import took 0.037603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening02/Front_grounds/detail02.png
-  artifactKey: Guid(bfc2ea4265732be4d92938d94b92971e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_evening02/Front_grounds/detail02.png using Guid(bfc2ea4265732be4d92938d94b92971e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8cc04b3fdafdceb9bc3b0f41bb3493') in 0.030849 seconds 
-  Import took 0.037373 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.787781 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Platfforms/details/armory.png
-  artifactKey: Guid(2da9d078b40fcd84d91df46de5b49612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Platfforms/details/armory.png using Guid(2da9d078b40fcd84d91df46de5b49612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f92f0048d53ff0e7b780342d3967379') in 0.023123 seconds 
-  Import took 0.028380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000548 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Platfforms/details/barrel02.png
-  artifactKey: Guid(36bcd06add90fd54cafacd36b5e18304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Platfforms/details/barrel02.png using Guid(36bcd06add90fd54cafacd36b5e18304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cad07bede84cefe631939326949228f') in 0.024371 seconds 
-  Import took 0.028914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000610 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Platfforms/details/INN.png
-  artifactKey: Guid(c7e8c9d1ae787dc44ad30ecf430916ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Platfforms/details/INN.png using Guid(c7e8c9d1ae787dc44ad30ecf430916ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68fcc7495202595b8243bf2b717315e') in 0.022776 seconds 
-  Import took 0.026516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000660 seconds.
-  path: Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Platfforms/details/barrel01.png
-  artifactKey: Guid(88b574374aa46d243bfcecf21815342e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lvl3/BackgroundImages/2D Fantasy Forest Village Side-Scrolling Platformer Pack/Forest_night01/Platfforms/details/barrel01.png using Guid(88b574374aa46d243bfcecf21815342e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e033ef285d622375a4cd1c17deff3391') in 0.028981 seconds 
-  Import took 0.033692 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
