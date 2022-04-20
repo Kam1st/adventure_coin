@@ -56,15 +56,17 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Parallaxing.cs" />
     <Compile Include="Assets\Scripts\Lvl1_Behavior.cs" />
     <Compile Include="Assets\Scripts\ScrollingScript.cs" />
     <Compile Include="Assets\Scripts\MM_Behavior.cs" />
-    <Compile Include="Assets\Scripts\RendererExtensions.cs" />
-    <Compile Include="Assets\Character\MoveCharacter.cs" />
-    <Compile Include="Assets\Scripts\Parallaxing.cs" />
     <Compile Include="Assets\Scripts\Tiling.cs" />
+    <Compile Include="Assets\Scripts\RendererExtensions.cs" />
     <Compile Include="Assets\Scripts\AnimChar.cs" />
+    <Compile Include="Assets\Character(DEL)\MoveCharacter.cs" />
     <Compile Include="Assets\Scripts\Camera2DFollow.cs" />
+    <Compile Include="Assets\Scripts\CheckGround.cs" />
+    <Compile Include="Assets\Scripts\TransformJump.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

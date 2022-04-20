@@ -9,6 +9,13 @@ public class AnimChar : MonoBehaviour
     [SerializeField]
     private float MainCharSpeed;
 
+    [SerializeField]
+    private float jumpForce = 20;
+
+    
+
+    float velocity;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,29 +25,20 @@ public class AnimChar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var input_x = Input.GetAxisRaw("Horizontal");
+        float input_x = Input.GetAxisRaw("Horizontal");
         //var input_y = Input.GetAxisRaw("Vertical");
 
-        if (input_x > 0)
+        bool walking = Mathf.Abs(input_x) > 0;
+
+        animator.SetBool("is_walking", walking);
+
+        if(walking)
         {
-            animator.SetInteger("Direction", 1);
+            animator.SetFloat("input_x", input_x);
+
+            transform.Translate(new Vector3(input_x, 0, 0).normalized * Time.deltaTime * 2f * MainCharSpeed);
         }
 
-        if (input_x < 0)
-        {
-            animator.SetInteger("Direction", 0);
-        }
 
-        transform.Translate(new Vector3(input_x,0, 0) * Time.deltaTime * MainCharSpeed);
-
-        if (input_x == 0)
-        {
-            animator.speed = 0;
-            
-        }
-        else 
-        {
-            animator.speed = 1;
-        }
     }
 }
