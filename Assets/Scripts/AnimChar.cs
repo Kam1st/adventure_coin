@@ -9,8 +9,8 @@ public class AnimChar : MonoBehaviour
     [SerializeField]
     private float MainCharSpeed;
 
-    [SerializeField]
-    private float jumpForce = 20;
+    /*[SerializeField]
+    private float jumpForce = 20; */
 
     
 
