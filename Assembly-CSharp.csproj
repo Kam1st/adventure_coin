@@ -70,6 +70,8 @@
     <Compile Include="Assets\Character(DEL)\MoveCharacter.cs" />
     <Compile Include="Assets\Scripts\CheckGround.cs" />
     <Compile Include="Assets\Scripts\Camera2DFollow.cs" />
+    <Compile Include="Assets\Scripts\AnimCharRight.cs" />
+    <Compile Include="Assets\Scripts\ScrollingScriptText.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
