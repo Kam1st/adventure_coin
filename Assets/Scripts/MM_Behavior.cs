@@ -52,6 +52,11 @@ public class MM_Behavior : MonoBehaviour
         SceneManager.LoadScene("SceneMainMenu");
     }
 
+    public void loadPrologueScene()
+    {
+        SceneManager.LoadScene("ScenePrologue");
+    }
+
     public void loadLvl1Scene()
     {
         SceneManager.LoadScene("SceneLvl1");
@@ -67,8 +72,13 @@ public class MM_Behavior : MonoBehaviour
         SceneManager.LoadScene("SceneLvl3");
     }
 
-    public void loadLvl4Scene()
+    /*public void loadLvl4Scene()
     {
         SceneManager.LoadScene("SceneLvl4");
+    }  */
+
+    public void loadEpilogueScene()
+    {
+        SceneManager.LoadScene("SceneEpilogue");
     }
 }

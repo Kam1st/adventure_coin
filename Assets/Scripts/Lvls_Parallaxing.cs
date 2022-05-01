@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Lvls_Parallaxing : MonoBehaviour
 {
-    private float lengeth, start;
+    private float length, start;
     [SerializeField] private Camera c;
     [SerializeField] private float effect;
 
@@ -12,24 +12,24 @@ public class Lvls_Parallaxing : MonoBehaviour
     void Start()
     {
         start = transform.position.x;
-        lengeth = GetComponent<SpriteRenderer>().bounds.size.x;
+        length = GetComponent<SpriteRenderer>().bounds.size.x;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float temp = (c.transform.position.x * (-1 - effect));
+        float temp = (c.transform.position.x * (1 - effect));
         float dist = (c.transform.position.x *  effect);
         transform.position = new Vector3(start + dist, transform.position.y, 
             transform.position.z);
 
-        if(temp > start + lengeth)
+        if(temp > start + length)
         {
-            start += lengeth;
+            start += length;
         }
-        else if (temp < start - lengeth)
+        else if (temp < start - length)
         {
-            start -= lengeth;
+            start -= length;
         }
     }
 }

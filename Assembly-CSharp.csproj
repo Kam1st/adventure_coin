@@ -59,8 +59,6 @@
     <Compile Include="Assets\Scripts\Parallaxing.cs" />
     <Compile Include="Assets\Scripts\Lvl1_Behavior.cs" />
     <Compile Include="Assets\Scripts\Lvls_Parallaxing.cs" />
-    <Compile Include="Assets\Lvl4\VolcanoBackgroundImage\DynamicBackgrounds\Scripts\ColorSpring.cs" />
-    <Compile Include="Assets\Lvl4\VolcanoBackgroundImage\DynamicBackgrounds\Scripts\RepeatingBackground.cs" />
     <Compile Include="Assets\Scripts\ScrollingScript.cs" />
     <Compile Include="Assets\Scripts\MM_Behavior.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
@@ -68,12 +66,12 @@
     <Compile Include="Assets\Scripts\TransformJump.cs" />
     <Compile Include="Assets\Scripts\RendererExtensions.cs" />
     <Compile Include="Assets\Scripts\ScrollingScriptText.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\AnimChar.cs" />
-    <Compile Include="Assets\Lvl4\VolcanoBackgroundImage\DynamicBackgrounds\Scripts\TweenBase.cs" />
     <Compile Include="Assets\Scripts\AnimCharRight.cs" />
     <Compile Include="Assets\Scripts\CheckGround.cs" />
     <Compile Include="Assets\Scripts\Camera2DFollow.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Prologue_Epilogue_Behavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
