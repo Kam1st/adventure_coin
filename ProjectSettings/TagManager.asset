@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - RareItem
+  - Spikes
+  - Coin
+  - SpikesLvl2
+  - SpikesLvl3
+  - RareItemLvl2
+  - RareItemLvl3
   layers:
   - Default
   - TransparentFX

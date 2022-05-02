@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class AnimChar : MonoBehaviour
 {
@@ -41,4 +43,39 @@ public class AnimChar : MonoBehaviour
 
 
     }
+
+    private void OnCollisionEnter2D(Collision2D hit)
+    {
+        if (hit.transform.tag == "Spikes")
+        {
+            SceneManager.LoadScene("SceneL1GameOver");
+        }
+
+        if (hit.transform.tag == "RareItem")
+        {
+            SceneManager.LoadScene("SceneL1Victory");
+        }
+
+        if (hit.transform.tag == "SpikesLvl2")
+        {
+            SceneManager.LoadScene("SceneL2GameOver");
+        }
+
+        if (hit.transform.tag == "RareItemLvl2")
+        {
+            SceneManager.LoadScene("SceneL2Victory");
+        }
+
+        if (hit.transform.tag == "SpikesLvl3")
+        {
+            SceneManager.LoadScene("SceneL3GameOver");
+        }
+
+        if (hit.transform.tag == "RareItemLvl3")
+        {
+            SceneManager.LoadScene("SceneL3Victory");
+        }
+    }
+
+
 }

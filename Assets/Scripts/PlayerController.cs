@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerController : MonoBehaviour
 {
     Rigidbody2D rb2d;
@@ -52,4 +53,8 @@ public class PlayerController : MonoBehaviour
             anim.StopPlayback();
         }
     }
+
+
+    
+
 }

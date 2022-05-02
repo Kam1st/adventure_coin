@@ -15,13 +15,31 @@ EditorBuildSettings:
     path: Assets/Lvl1/Scenes/SceneLvl1.unity
     guid: 413818567bf89bf4789fe176d8341935
   - enabled: 1
+    path: Assets/Lvl1_GameOver/SceneL1GameOver.unity
+    guid: 7b3d454da88671b4dab42d06a7716ef9
+  - enabled: 1
+    path: Assets/Lvl1_Victory/SceneL1Victory.unity
+    guid: 260339facecb7ac42b3639e09afa017c
+  - enabled: 1
     path: Assets/Lvl2/SceneLvl2.unity
     guid: 943c7816af0bf0c4d8e855ae49db9db9
   - enabled: 1
+    path: Assets/Lvl2_GameOver/SceneL2GameOver.unity
+    guid: 1f0a07303bf05484ab875803991df34c
+  - enabled: 1
+    path: Assets/Lvl2_Victory/SceneL2Victory.unity
+    guid: d70c8d0875c1834449044f0583520105
+  - enabled: 1
     path: Assets/Lvl3/SceneLvl3.unity
     guid: 47f7e6e6fb825a043ac26b383d86bd19
+  - enabled: 1
+    path: Assets/Lvl3_GameOver/SceneL3GameOver.unity
+    guid: 79e492b94235b1f44b708d4aeb85e1c0
+  - enabled: 1
+    path: Assets/Lvl3_Victory/SceneL3Victory.unity
+    guid: 2c69e995ff3dc1f458384429483871a7
   - enabled: 0
-    path: Assets/Lvl4/SceneLvl4.unity
+    path: 
     guid: 0199131c1fc51d942a39569197a55205
   - enabled: 1
     path: Assets/Epilogue/SceneEpilogue.unity
