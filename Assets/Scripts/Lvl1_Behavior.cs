@@ -30,6 +30,7 @@ public class Lvl1_Behavior : MonoBehaviour
         {
             mainMenu.enabled = true;
             audioMenu.enabled = false;
+            Time.timeScale = 0;
         }
 
     }
@@ -65,6 +66,13 @@ public class Lvl1_Behavior : MonoBehaviour
     public void loadLvl1Scene()
     {
         SceneManager.LoadScene("SceneLvl1");
+    }
+
+    public void ResumeScene()
+    {
+        mainMenu.enabled = false;
+        audioMenu.enabled = false;
+        Time.timeScale = 1;
     }
 
     public void loadLvl2Scene()

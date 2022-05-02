@@ -62,7 +62,6 @@
     <Compile Include="Assets\Scripts\ScrollingScript.cs" />
     <Compile Include="Assets\Scripts\MM_Behavior.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\Tiling.cs" />
     <Compile Include="Assets\Scripts\TransformJump.cs" />
     <Compile Include="Assets\Scripts\RendererExtensions.cs" />
     <Compile Include="Assets\Scripts\ScrollingScriptText.cs" />
@@ -70,8 +69,10 @@
     <Compile Include="Assets\Scripts\AnimChar.cs" />
     <Compile Include="Assets\Scripts\AnimCharRight.cs" />
     <Compile Include="Assets\Scripts\CheckGround.cs" />
-    <Compile Include="Assets\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\Scripts\Prologue_Epilogue_Behavior.cs" />
+    <Compile Include="Assets\Scripts\Camera2DFollow.cs" />
+    <Compile Include="Assets\Scripts\GameOver_Behavior.cs" />
+    <Compile Include="Assets\Scripts\LevelComplete_Behavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
