@@ -9,14 +9,28 @@ public class AnimChar : MonoBehaviour
     private Animator animator;
 
     [SerializeField]
+    private LayerMask platformLayerMask;
+
+
+    [SerializeField]
     private float MainCharSpeed;
 
-    /*[SerializeField]
-    private float jumpForce = 20; */
+    [SerializeField]
+    private float jumpSpeed;
+
+    private BoxCollider2D boxCollider2d;
+    private Rigidbody2D rigidbody2d;
 
     
 
     float velocity;
+
+    private void Awake()
+    {
+        boxCollider2d = transform.GetComponent<BoxCollider2D>();
+        rigidbody2d = transform.GetComponent<Rigidbody2D>();
+    }
+
 
     // Start is called before the first frame update
     void Start()
@@ -41,8 +55,37 @@ public class AnimChar : MonoBehaviour
             transform.Translate(new Vector3(input_x, 0, 0).normalized * Time.deltaTime * 2f * MainCharSpeed);
         }
 
+        if (IsGrounded() && Input.GetKeyDown(KeyCode.Space))
+        {
 
+            //rigidbody2d.AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
+            rigidbody2d.velocity = Vector2.up * jumpSpeed;
+        }
     }
+
+
+    private bool IsGrounded()
+    {
+        float extraHeigthText = .5f;
+        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider2d.bounds.center, boxCollider2d.bounds.size, 0f,  Vector2.down, extraHeigthText, platformLayerMask);
+
+        /*
+        Color rayColor;
+        if(raycastHit.collider != null)
+        {
+            rayColor = Color.green;
+        }
+        else
+        {
+            rayColor = Color.red;
+        }
+        Debug.DrawRay(boxCollider2d.bounds.center + new Vector3(boxCollider2d.bounds.extents.x, 0), Vector2.down * (boxCollider2d.bounds.extents.y + extraHeigthText),rayColor);
+        Debug.DrawRay(boxCollider2d.bounds.center - new Vector3(boxCollider2d.bounds.extents.x, 0), Vector2.down * (boxCollider2d.bounds.extents.y + extraHeigthText), rayColor);
+        Debug.DrawRay(boxCollider2d.bounds.center - new Vector3(boxCollider2d.bounds.extents.x, boxCollider2d.bounds.extents.y + extraHeigthText), Vector2.right * (boxCollider2d.bounds.extents.x), rayColor);
+        Debug.Log(raycastHit.collider); */
+        return raycastHit.collider != null;
+    }
+
 
     private void OnCollisionEnter2D(Collision2D hit)
     {

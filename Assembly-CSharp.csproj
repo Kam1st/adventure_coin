@@ -60,8 +60,6 @@
     <Compile Include="Assets\Scripts\Lvl1_Behavior.cs" />
     <Compile Include="Assets\Scripts\Lvls_Parallaxing.cs" />
     <Compile Include="Assets\Scripts\Coin_Collector.cs" />
-    <Compile Include="Assets\Lvl4\VolcanoBackgroundImage\DynamicBackgrounds\Scripts\ColorSpring.cs" />
-    <Compile Include="Assets\Lvl4\VolcanoBackgroundImage\DynamicBackgrounds\Scripts\RepeatingBackground.cs" />
     <Compile Include="Assets\Scripts\OnVictory_Manager.cs" />
     <Compile Include="Assets\Scripts\ScrollingScript.cs" />
     <Compile Include="Assets\Scripts\L2_Player_Colliders_Effect.cs" />
@@ -76,7 +74,6 @@
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\AnimChar.cs" />
     <Compile Include="Assets\Scripts\L3_Player_Colliders_Effect.cs" />
-    <Compile Include="Assets\Lvl4\VolcanoBackgroundImage\DynamicBackgrounds\Scripts\TweenBase.cs" />
     <Compile Include="Assets\Scripts\AnimCharRight.cs" />
     <Compile Include="Assets\Scripts\CheckGround.cs" />
     <Compile Include="Assets\Scripts\GameOver_Behavior.cs" />
