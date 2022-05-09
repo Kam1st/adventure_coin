@@ -56,16 +56,19 @@ public class Lvl1_Behavior : MonoBehaviour
     public void loadMainMenuScene()
     {
         SceneManager.LoadScene("SceneMainMenu");
+        Time.timeScale = 1;
     }
 
     public void loadPrologueScene()
     {
         SceneManager.LoadScene("ScenePrologue");
+        Time.timeScale = 1;
     }
 
     public void loadLvl1Scene()
     {
         SceneManager.LoadScene("SceneLvl1");
+        Time.timeScale = 1;
     }
 
     public void ResumeScene()
@@ -78,11 +81,13 @@ public class Lvl1_Behavior : MonoBehaviour
     public void loadLvl2Scene()
     {
         SceneManager.LoadScene("SceneLvl2");
+        Time.timeScale = 1;
     }
 
     public void loadLvl3Scene()
     {
         SceneManager.LoadScene("SceneLvl3");
+        Time.timeScale = 1;
     }
 
     /*  public void loadLvl4Scene()
@@ -93,5 +98,6 @@ public class Lvl1_Behavior : MonoBehaviour
     public void loadEpilogueScene()
     {
         SceneManager.LoadScene("SceneEpilogue");
+        Time.timeScale = 1;
     }
 }
