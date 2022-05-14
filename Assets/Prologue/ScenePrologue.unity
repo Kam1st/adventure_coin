@@ -694,8 +694,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13491, y: 400}
-  m_SizeDelta: {x: 1398.03, y: 108.78}
+  m_AnchoredPosition: {x: 16522, y: 400}
+  m_SizeDelta: {x: 1497.88, y: 108.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &253888722
 MonoBehaviour:
@@ -720,7 +720,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 65
-    m_FontStyle: 0
+    m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 175
@@ -1521,12 +1521,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1486078369}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 187, y: 400}
-  m_SizeDelta: {x: 3139.12, y: 108.78}
+  m_AnchoredPosition: {x: 1324, y: 400}
+  m_SizeDelta: {x: 3349.07, y: 108.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &462097934
 MonoBehaviour:
@@ -1551,7 +1551,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 65
-    m_FontStyle: 0
+    m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 175
@@ -2928,8 +2928,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4461.829, y: 400}
-  m_SizeDelta: {x: 2745.47, y: 108.78}
+  m_AnchoredPosition: {x: 6623, y: 400}
+  m_SizeDelta: {x: 2966.05, y: 108.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1162722678
 MonoBehaviour:
@@ -2954,7 +2954,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 65
-    m_FontStyle: 0
+    m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 175
@@ -2965,7 +2965,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: His Three most Personal Items Consists of a Gold Metal, a Gold Watch, and
-    a Gold Throphy.
+    a Golden Throphy.
 --- !u!222 &1162722679
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3748,8 +3748,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 90}
   m_LocalScale: {x: 0.023025028, y: 0.023025028, z: 0.023025028}
   m_Children:
-  - {fileID: 462097933}
   - {fileID: 1628513610}
+  - {fileID: 462097933}
   - {fileID: 1162722677}
   - {fileID: 1569583131}
   - {fileID: 253888721}
@@ -3758,7 +3758,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 82.5, y: 0.2}
+  m_AnchoredPosition: {x: 102.5, y: 0.2}
   m_SizeDelta: {x: 5149.6343, y: 1033.8623}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1486078370
@@ -4071,8 +4071,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9359, y: 400}
-  m_SizeDelta: {x: 3478.73, y: 108.78}
+  m_AnchoredPosition: {x: 12092, y: 400}
+  m_SizeDelta: {x: 3715.19, y: 108.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1569583132
 MonoBehaviour:
@@ -4097,7 +4097,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 65
-    m_FontStyle: 0
+    m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 175
@@ -4312,7 +4312,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1486078369}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4342,7 +4342,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 65
-    m_FontStyle: 0
+    m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 175
