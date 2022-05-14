@@ -56,29 +56,18 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Parallaxing.cs" />
     <Compile Include="Assets\Scripts\Lvl1_Behavior.cs" />
     <Compile Include="Assets\Scripts\Lvls_Parallaxing.cs" />
     <Compile Include="Assets\Scripts\Coin_Collector.cs" />
-    <Compile Include="Assets\Scripts\OnVictory_Manager.cs" />
     <Compile Include="Assets\Scripts\ScrollingScript.cs" />
-    <Compile Include="Assets\Scripts\L2_Player_Colliders_Effect.cs" />
     <Compile Include="Assets\Scripts\LevelComplete_Behavior.cs" />
     <Compile Include="Assets\Scripts\MM_Behavior.cs" />
-    <Compile Include="Assets\Scripts\L1_Player_Colliders_Effect.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\Tiling.cs" />
-    <Compile Include="Assets\Scripts\TransformJump.cs" />
     <Compile Include="Assets\Scripts\RendererExtensions.cs" />
     <Compile Include="Assets\Scripts\ScrollingScriptText.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\AnimChar.cs" />
-    <Compile Include="Assets\Scripts\L3_Player_Colliders_Effect.cs" />
-    <Compile Include="Assets\Scripts\AnimCharRight.cs" />
-    <Compile Include="Assets\Scripts\CheckGround.cs" />
     <Compile Include="Assets\Scripts\GameOver_Behavior.cs" />
     <Compile Include="Assets\Scripts\Prologue_Epilogue_Behavior.cs" />
-    <Compile Include="Assets\Scripts\Camera2DFollow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

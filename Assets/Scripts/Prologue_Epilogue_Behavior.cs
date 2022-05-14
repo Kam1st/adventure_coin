@@ -39,11 +39,13 @@ public class Prologue_Epilogue_Behavior : MonoBehaviour
     public void loadMainMenuScene()
     {
         SceneManager.LoadScene("SceneMainMenu");
+        Time.timeScale = 1;
     }
 
     public void loadLvl1Scene()
     {
         SceneManager.LoadScene("SceneLvl1");
+        Time.timeScale = 1;
     }
 
     public void ResumeScene()
