@@ -21,7 +21,14 @@ public class AnimChar : MonoBehaviour
     private BoxCollider2D boxCollider2d;
     private Rigidbody2D rigidbody2d;
 
-    
+    public int health;
+    public int numOfHearts;
+
+    public Image[] hearts;
+    public Sprite full_heart;
+    public Sprite empty_heart;
+
+
 
     float velocity;
 
@@ -55,11 +62,41 @@ public class AnimChar : MonoBehaviour
             transform.Translate(new Vector3(input_x, 0, 0).normalized * Time.deltaTime * 2f * MainCharSpeed);
         }
 
+        //GROUND RELATED
         if (IsGrounded() && Input.GetKeyDown(KeyCode.Space))
         {
 
             //rigidbody2d.AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
             rigidbody2d.velocity = Vector2.up * jumpSpeed;
+        }
+
+
+        //HEALTH RELATED
+        if (health > numOfHearts)
+        {
+            health = numOfHearts;
+        }
+
+
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if (i < health)
+            {
+                hearts[i].sprite = full_heart;
+            }
+            else
+            {
+                hearts[i].sprite = empty_heart;
+            }
+
+            if (i < numOfHearts)
+            {
+                hearts[i].enabled = true;
+            }
+            else
+            {
+                hearts[i].enabled = false;
+            }
         }
     }
 
@@ -91,28 +128,62 @@ public class AnimChar : MonoBehaviour
     {
         if (hit.transform.tag == "Spikes")
         {
+            health--;
+        }
+        if (hit.transform.tag == "Spikes" && health == 0)
+        {
             SceneManager.LoadScene("SceneL1GameOver");
         }
+        if (hit.transform.tag == "RipSpikes")
+        {
+            SceneManager.LoadScene("SceneL1GameOver");
+        }
+
+
 
         if (hit.transform.tag == "RareItem")
         {
             SceneManager.LoadScene("SceneL1Victory");
         }
 
+
+
         if (hit.transform.tag == "SpikesLvl2")
+        {
+            health--;
+        }
+        if (hit.transform.tag == "SpikesLvl2" && health == 0)
         {
             SceneManager.LoadScene("SceneL2GameOver");
         }
+        if (hit.transform.tag == "RipSpikesLvl2")
+        {
+            SceneManager.LoadScene("SceneL2GameOver");
+        }
+
+
 
         if (hit.transform.tag == "RareItemLvl2")
         {
             SceneManager.LoadScene("SceneL2Victory");
         }
 
+        
+
         if (hit.transform.tag == "SpikesLvl3")
+        {
+            health--;
+        }       
+        if (hit.transform.tag == "SpikesLvl3" && health == 0)
         {
             SceneManager.LoadScene("SceneL3GameOver");
         }
+        if (hit.transform.tag == "RipSpikesLvl3")
+        {
+            SceneManager.LoadScene("SceneL3GameOver");
+        }
+
+
 
         if (hit.transform.tag == "RareItemLvl3")
         {

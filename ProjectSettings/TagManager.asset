@@ -11,6 +11,9 @@ TagManager:
   - SpikesLvl3
   - RareItemLvl2
   - RareItemLvl3
+  - RipSpikes
+  - RipSpikesLvl2
+  - RipSpikesLvl3
   layers:
   - Default
   - TransparentFX
